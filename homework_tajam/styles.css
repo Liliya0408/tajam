@@ -28,7 +28,7 @@ text-decoration: auto;
 }
 
 .header_nav-link:hover {
-    color: rgb(13, 13, 46);
+    color: blue;
 }
  
 .section-start {
@@ -43,10 +43,17 @@ text-decoration: auto;
 }
 
 .section-start-title {
-    padding: 60px;
+    padding: 40px;
     font-size: 40px;
     color: white;
-font-weight: 800;
+    font-weight: 800;
+}
+.section-start-line {
+    
+    margin: 0 500px 30px 500px;
+    border-top: blue 1px solid;
+    padding:  0 60px;
+    
 }
 .section-start-text {
 margin-bottom: 50px;
@@ -54,10 +61,12 @@ font-size: 20px;
 color: white;
 font-family: sans-serif;
 }
+.section-start-link-block {
+margin-bottom: 60px;
+    }
 
 .section-start-link {
-margin: 60px;
-padding: 10px;
+    padding: 10px;
 font-size: 16px;
 color: white;
 font-family: sans-serif;
