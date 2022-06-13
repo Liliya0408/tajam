@@ -111,14 +111,14 @@ text-align: center;
 
 .section-middle-text {
     color: #888888;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
 }
 
 table {
-    display: inline-block;
+    margin: auto;
     border-collapse: collapse;
-    
+    border: 2px white solid
 }
 
 td {
@@ -136,9 +136,7 @@ td {
     padding: 15px;
     text-align: center;
 }
-.features-image {
 
-}
 .features-title {
     margin-top: 20px;
     text-transform: uppercase;
@@ -152,3 +150,27 @@ td {
     font-size: 20px;
     font-family: sans-serif;
 }
+
+.section-third {
+    text-align: center;
+    }
+    
+.section-third-title {
+        padding: 40px 40px 10px 40px;
+        font-size: 30px;
+        font-weight: 800;
+        color: #383838;
+    }
+.section-middle-line {
+        display: inline-block;
+       
+        border-top: #888888 3px solid;
+        width: 80px;
+        
+    }
+    
+.section-middle-text {
+        color: #888888;
+        font-size: 22px;
+        font-weight: 600;
+    }
